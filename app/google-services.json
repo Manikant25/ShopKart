@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "394300380003",
+    "project_id": "shopkart-1a806",
+    "storage_bucket": "shopkart-1a806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394300380003:android:fb1d5db6eaf930103bb956",
+        "android_client_info": {
+          "package_name": "com.example.shopkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394300380003-2a3sfsgk1f4a08bhfr0pm5h56ee85dgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopkart",
+            "certificate_hash": "47f31174bca51fd6ac83e1c5f547849f0b4f2d5f"
+          }
+        },
+        {
+          "client_id": "394300380003-tpk8b61o3toevgam52fp8f6rfht57rrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzdmCjCUCuKr1EYmBvzQ0JT25GEhCIpVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394300380003-tpk8b61o3toevgam52fp8f6rfht57rrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
