@@ -3,10 +3,10 @@ package com.example.shopkart.utils
 import android.content.Context
 import android.graphics.Typeface
 import android.util.AttributeSet
-import androidx.appcompat.widget.AppCompatTextView
+import androidx.appcompat.widget.AppCompatButton
 
-class BoldTextView(context: Context, attributes: AttributeSet) :
-    AppCompatTextView(context, attributes) {
+class Skbutton(context: Context, attributeSet: AttributeSet) : AppCompatButton(context, attributeSet)
+{
     init {
         applyFont()
     }
@@ -16,4 +16,5 @@ class BoldTextView(context: Context, attributes: AttributeSet) :
             Typeface.createFromAsset(context.assets, "Montserrat-Regular.ttf")
         typeface = boldTypeFace
     }
+
 }

@@ -3,10 +3,10 @@ package com.example.shopkart.utils
 import android.content.Context
 import android.graphics.Typeface
 import android.util.AttributeSet
-import androidx.appcompat.widget.AppCompatTextView
+import androidx.appcompat.widget.AppCompatEditText
 
-class BoldTextView(context: Context, attributes: AttributeSet) :
-    AppCompatTextView(context, attributes) {
+class SKEditText(context: Context, attributeSet: AttributeSet) :
+    AppCompatEditText(context, attributeSet) {
     init {
         applyFont()
     }
